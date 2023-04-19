@@ -1,0 +1,223 @@
+@font-face {
+    font-family: itim;
+    src: url(Itim-Regular.ttf);
+}
+body{
+    background-color: rgb(23, 23, 23);
+}
+.logo{
+    visibility: hidden;
+}
+.logo::after{
+    background-image: linear-gradient(to left, #D3FCE6, #FDA5A5);
+    content: "Soundgasm";
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: itim;
+    color: rgb(23, 23, 23);
+    visibility: visible;
+    display: block;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 0.7rem;
+}
+nav > a{
+    color: #FFFFFF;
+    border-right-style: solid ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-color: rgb(23, 23, 23);
+}
+[href="https://soundgasm.net/contact"]{
+    border-style: none;
+}
+
+nav {
+    background-color: #4d47478f;
+    text-align: center;
+    margin: auto;
+    width: 38rem;
+    padding: 0.6rem;
+    border-style: hidden;
+    border-radius: 30px;
+}
+
+
+
+#jp_container_1{
+    border-radius: 10px;
+    border-color: #4d47478f;
+    color: #FFFFFF;
+    margin: auto;
+    width: 33rem;
+    background-color: #4d47478f;
+}
+.jp-details{
+    background-color: #4d47478f;
+    border-bottom: 5px solid black;
+    border-top:10px dotted black;
+    border-color:rgb(23, 23, 23) ;
+    margin: 0.1px;
+    
+}
+.jp-volume-controls{
+    left:23rem;
+}
+.jp-audio .jp-type-single .jp-progress{
+    left:10.6rem ;
+}
+.jp-audio .jp-type-single .jp-time-holder{
+    left:10.6rem;
+}
+.jp-controls{
+    margin: auto !important;
+   
+}
+.jp-description{
+    padding: 1rem;
+}
+.jp-download > a{
+    position: relative;
+    left:13rem;
+}
+.jp-description>p{
+    padding-top: 0rem;
+}
+#author{
+    position: relative;
+    left: 5rem;
+    height: 8rem;
+    width: 8rem;
+    background-color: #4d47478f;
+    border:1px solid rgb(23, 23, 23);
+}
+#pfp{
+  padding: 0.55rem;
+  height: 7rem;
+  width: 7rem;
+}
+#auth{
+    position: relative;
+    left:2.8rem;
+}
+#authred{
+    position: absolute;
+    top: 0.06rem;
+    left: 0rem;
+    height: 1.9rem;
+}
+#preform{
+    position: relative;
+    top: -8rem;
+    left: 18rem;
+    height: 8rem;
+    width: 8rem;
+    background-color: #4d47478f;
+    border:1px solid rgb(23, 23, 23);
+}
+#pfp1{
+    padding: 0.55rem;
+    height: 7rem;
+    width: 7rem;
+  }
+#pref{
+    position: relative;
+    left:1rem;
+}
+
+#prefred{
+    position: absolute;
+    top: 0.06rem;
+    left: 0rem;
+    height: 1.9rem;
+    
+}
+#prefspot{
+    position: absolute;
+    top: -0.1rem;
+    left: -0.9rem;
+    height: 2.2rem;
+    
+}
+#preftwit{
+    position: absolute;
+    top: 0.06rem;
+    left: 0rem;
+    height: 1.9rem;
+    
+}
+
+
+
+.logcont{
+    position: relative;
+    border: 1.5px solid rgb(23, 23, 23);
+    border-radius: 30px;
+    margin-top: 0.3rem;
+    height: 2rem;
+    width: 9rem;
+    left: -0.6rem;
+    background-color: #4d4747;
+    
+}
+
+#clone{
+    position: absolute;
+    margin-top: 0;
+    height: 2rem;
+    width: 9rem;
+    left: 0rem;
+    background-color: #4d4747;
+    border-radius: 30px;
+}
+#clone2{
+    position: absolute;
+    margin-top: 0;
+    height: 2rem;
+    width: 9rem;
+    left: 0rem;
+    background-color: #4d4747;
+    border-radius: 30px;
+}
+#clone3{
+    position: absolute;
+    margin-top: 0;
+    height: 2rem;
+    width: 9rem;
+    left: 0rem;
+    background-color: #4d4747;
+    border-radius: 30px;
+}
+#clone4{
+    position: absolute;
+    margin-top: 0;
+    height: 2rem;
+    width: 9rem;
+    left: 0rem;
+    background-color: #4d4747;
+    border-radius: 30px;
+}
+#username{
+    color: #FFFFFF;
+    left: 1rem;
+    top: 0.35rem;
+    position: absolute;
+    font-size: 0.75rem;
+}
+#usernametw{
+    color: #FFFFFF;
+    left: 0rem;
+    top: 0.35rem;
+    position: absolute;
+    font-size: 0.72rem;
+}
+#username2{
+    color: #FFFFFF;
+    left: 1rem;
+    top: 0.35rem;
+    position: absolute;
+    font-size: 0.75rem;
+}
+p{
+    margin-top: 2.5rem;
+}
