@@ -10,7 +10,7 @@ body{
 }
 .logo::after{
     background-image: linear-gradient(to left, #D3FCE6, #FDA5A5);
-    content: "Soundgasmgay";
+    content: "Soundgasm";
     font-size: 1.4rem;
     text-align: center;
     font-family: itim;
